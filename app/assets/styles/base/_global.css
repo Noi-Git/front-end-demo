@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Handlee', cursive, sans-serif;
+	font-family: 'Merienda', cursive, sans-serif;
+	font-size: 1.7rem;
+	line-height: 1.7;
+	color: red;
+	box-sizing: border-box;
+	background-color: #fff;
+}
