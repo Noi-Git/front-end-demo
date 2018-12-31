@@ -1,0 +1,29 @@
+.large-hero {
+    position: relative;
+    width:  100%;
+
+    &__image {
+        display: block;
+        width: inherit;
+    }
+
+    &__btn--orange {
+    	color: $text-light;
+		text-decoration: none;
+		padding: .75rem 1.4rem;
+		display: inline-block;
+		border: 2px solid $btn;
+		position: absolute;
+		left: 43%;
+		top: 70%;
+		width: 25%;
+		text-align: center;
+
+		@mixin atMedium {
+         width: 15%; 
+     }
+    }
+
+}
+
+

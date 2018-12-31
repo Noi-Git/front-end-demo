@@ -1,0 +1,10 @@
+footer {
+	background-color: $menu-bar;
+	padding:  1rem 0;
+}
+
+.footer__info {
+		color:  lightgray;
+		text-align: center;
+		font-size: .9rem;
+	}

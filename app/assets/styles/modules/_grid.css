@@ -1,0 +1,46 @@
+/* === GIRD ===*/
+
+.row {
+
+    @mixin clearfix;
+
+    &--t-padding {
+        padding-top: 3rem;
+        @mixin atLarge {
+            padding-top: 0rem;
+        }
+    }
+
+    &--b-padding {
+        padding-bottom: 0rem;
+
+        @mixin atSmall {
+            padding-top: 5rem;
+        }
+    }
+
+    @mixin atLarge {
+
+        &__b-margin-until-large {
+            margin-bottom: 0;
+        }
+
+        &__large-4 {
+            float: left;
+            width: 25%;
+
+        }
+
+        &__large-2 {
+            float: left;
+            width: 50%;
+        }
+
+        &__large-1 {
+            float: left;
+            width: 65%;
+        }
+    } 
+
+
+}

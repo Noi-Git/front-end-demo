@@ -1,0 +1,17 @@
+.page-section {
+  padding: 1.8rem;
+  text-align: center;
+
+  @mixin atMedium {
+    padding: 4.5rem;
+  }
+
+  &--light-gray {
+    background-color: $bg-clor;
+  }
+}
+
+.section-title {
+    padding-bottom: 1.2rem;
+    font-size: 2.4rem;
+}
