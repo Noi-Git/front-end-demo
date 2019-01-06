@@ -373,6 +373,8 @@ body {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	background-color: #fff;
+	width: 1365px;
+	margin: 0 auto;
 }
 
 h1{
@@ -392,13 +394,13 @@ img {
 
 .large-hero {
     position: relative;
-    width:  100vw;
+		width:  100%;
 
 }
 
 .large-hero__image {
         display: block;
-        width: inherit;
+        /* width: inherit; */
     }
 
 .large-hero__btn--orange {
@@ -443,12 +445,6 @@ img {
 	}
 
 .menu-bar {
-		/* background-color: $menu-bar;
-		color: $text-light;
-		padding: .75rem 0;
-		color: $text-light;
-		padding: .75rem 0;
-		width: 100vw; */
 		display: none;
 }
 
@@ -460,7 +456,7 @@ img {
 		padding: .75rem 0;
 		color: #e8e8e8;
 		padding: .75rem 0;
-		width: 100vw;
+		width: 100%;
 		display: block
 }
 	}
@@ -506,24 +502,24 @@ img {
     }
 	}
 
-@media (min-width: 1010px) {
+@media (min-width: 768px) {
 
         .row__b-margin-until-large {
             margin-bottom: 0;
         }
 
-        .row__large-4 {
+        .row__medium-4 {
             float: left;
             width: 25%;
 
         }
 
-        .row__large-2 {
+        .row__medium-2 {
             float: left;
             width: 50%;
         }
 
-        .row__large-1 {
+        .row__medium-1 {
             float: left;
             width: 65%;
         }
@@ -579,18 +575,22 @@ img {
 .highlight__title {
 		font-size: 1.6rem;
 		padding-bottom: 1.5rem;
+
 	}
 
 @media (min-width: 530px) {
 
 .highlight__title {
 			font-size: 1.8rem
+
 	}
 	}
 
 .highlight__details {
 		font-size: 1.4rem;
 		padding: 1rem 2rem;
+		 
+
 	}
 
 @media (min-width: 530px) {
@@ -598,6 +598,8 @@ img {
 .highlight__details {
 			font-size: 1.5rem;
       padding: 2rem 1.5rem 0 1.5rem
+		 
+
 	}
 	}
 
@@ -669,7 +671,7 @@ hr {
   text-align: center;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
 
 .page-section {
     padding: 4.5rem
@@ -698,7 +700,7 @@ hr {
 	position: fixed;
   left: 0;
   bottom: 0;
-  width: 100vw;
+  width: 100%;
 }
 
 .footer__info {

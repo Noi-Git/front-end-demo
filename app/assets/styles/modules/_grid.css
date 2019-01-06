@@ -19,24 +19,24 @@
         }
     }
 
-    @mixin atLarge {
+    @mixin atMedium {
 
         &__b-margin-until-large {
             margin-bottom: 0;
         }
 
-        &__large-4 {
+        &__medium-4 {
             float: left;
             width: 25%;
 
         }
 
-        &__large-2 {
+        &__medium-2 {
             float: left;
             width: 50%;
         }
 
-        &__large-1 {
+        &__medium-1 {
             float: left;
             width: 65%;
         }

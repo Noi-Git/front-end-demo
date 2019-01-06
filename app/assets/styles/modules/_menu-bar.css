@@ -1,10 +1,4 @@
 .menu-bar {
-		/* background-color: $menu-bar;
-		color: $text-light;
-		padding: .75rem 0;
-		color: $text-light;
-		padding: .75rem 0;
-		width: 100vw; */
 		display: none;
 	
 	@mixin atSmall {
@@ -13,7 +7,7 @@
 		padding: .75rem 0;
 		color: $text-light;
 		padding: .75rem 0;
-		width: 100vw;
+		width: 100%;
 		display: block;
   }
 }

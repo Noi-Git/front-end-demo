@@ -1,10 +1,10 @@
 .large-hero {
     position: relative;
-    width:  100vw;
+		width:  100%;
 
     &__image {
         display: block;
-        width: inherit;
+        /* width: inherit; */
     }
 
     &__btn--orange {
@@ -22,7 +22,7 @@
 
 		@mixin atSmall {
          width: 15%; 
-     }
+		 }
 	}
 	
 	&__logo h1 {
