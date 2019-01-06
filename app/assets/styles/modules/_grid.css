@@ -5,9 +5,9 @@
     @mixin clearfix;
 
     &--t-padding {
-        padding-top: 3rem;
-        @mixin atLarge {
-            padding-top: 0rem;
+        padding: 3rem 0;
+        @mixin atSmall {
+            padding-top: 0;
         }
     }
 
@@ -15,7 +15,7 @@
         padding-bottom: 0rem;
 
         @mixin atSmall {
-            padding-top: 5rem;
+            padding-bottom: 4rem;
         }
     }
 
@@ -41,6 +41,5 @@
             width: 65%;
         }
     } 
-
 
 }

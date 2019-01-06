@@ -1,42 +1,43 @@
 .about {
-	position: relative;
-	height:  100%;
-	
-
+    position: relative;
 
 	&__content {
-	  padding-top: 3rem;
-     position: absolute;
-     top: 40%;
-     transform: translateY(-50%);
-     left: 10%;
-     width: 70%;
-     text-align: center;
-     color: $text-light;
-     line-height: 3rem;
-     color: lightgrey;
+        position: absolute;
+        font-size: 1.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        width: 100%;
+        padding: 0 4rem;
+        text-align: center;
+        color: $text-light;
+        line-height: 3rem;
+        color: lightgrey;
 
-     @mixin atMedium {
+     @mixin atSmall {
+        top: 20%;
+        transform: translateY(-20%);
+        left: 50%;
+        transform: translateX(-50%);
          padding-top: 60px;
          width: 65%;
      }
-
-	}
-
-	&__title {
-		
 	}
 
 	&__image {
-		display: block;
+        display: block;
 
-	@mixin atMedium {
-         width:  100%;
+	@mixin atSmall {
+         height:  100%;
      }
+    }
+        
+    &__image-1 {
+        border-bottom: 0;
 
-     &--1 {
-     	border-bottom: 20px solid black;
-     }
-
-	}
+        @mixin atSmall{
+            
+        }
+    }
 }
+

@@ -10,107 +10,124 @@
 	<link rel="stylesheet" type="text/css" href="temp/styles/styles.css">
 </head>
 <body>
-	<header class="menu-bar">
-		<div class="menu-bar__container">
-			<h1 class="logo">Square Table</h1>
-		</div>
-	</header>
+  
+	<header class="menu-bar ">
+      <h1 class="logo">Square Table</h1>     
+  </header>
+  
 
+  <div class="wrapper">
 	<div class="large-hero">
-		<img class="large-hero__image" src="assets/images/main-image.png">
+    <picture>
+      <source media="(min-width: 640px )" srcset="assets/images/main-image.png 1105w, assets/images/main-image-hi-dpi.png 2210w">
+      <img srcset="assets/images/m-main.png 414w, assets/images/m-main-hi-dpi.png 828w">
+    </picture>
+
+    <div class="large-hero__logo">
+        <h1>Square Table</h1>
+    </div>
+
 		<div class="large-hero__btn">
 			<p class="large-hero__btn--orange">Reservation</p>
 		</div>
 	</div>
 
-	<div class="page-section page-section--light-gray">
-
+	<div class="page-section ">
     <div class="row row--t-padding">
       <div class="intro">
       	<div class="wrapper">
         <span class="intro__content">
-            <h3 class="intro__title">Balancing Your Meals</h3>
+            <h3 class="section-title">Balancing Your Meals</h3>
 				<p class="intro__details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In maiores sint deleniti eveniet ducimus, officia eos.</p>
         </span>
         </div>
       </div>
     </div> <!-- row --> 
-
   </div><!-- page-section intro -->
 
 
 
 
 	<div class="page-section">
-      <h3 class="section-title">Our Foods</h3>
     <div class="row row--t-padding">
+      <h3 class="section-title">Our Foods</h3>
       <div class="row__large-4">
         <span class="highlight">
-            <h3 class="highlight__title">Organic Ingredients</h3>
-				<p class="highlight__details">Our foods are grown adn processed to boost for your cleanse</p>
+          <h3 class="highlight__title">Organic Ingredients</h3> <hr>
+          <p class="highlight__details">Our foods are grown adn processed to boost for your cleanse</p>
         </span>
       </div>
       <div class="row__large-4">
         <span class="highlight">
-            <h3 class="highlight__title">Local Farmers</h3>
-				<p class="highlight__details">We firmly support local farmers and regional food</p>
+          <h3 class="highlight__title">Local Farmers</h3><hr>
+          <p class="highlight__details">We firmly support local farmers and regional food</p>
         </span>
       </div>
       <div class="row__large-4">
         <span class="highlight">
-            <h3 class="highlight__title">Cook with Love</h3>
-				<p class="highlight__details">Oue chefs are dedicated to turn everyday food into something magical</p>
+          <h3 class="highlight__title">Cook with Love</h3><hr>
+          <p class="highlight__details">Oue chefs are dedicated to turn everyday food into something magical</p>
         </span>
       </div>
       <div class="row__large-4">
         <span class="highlight">
-            <h3 class="highlight__title">Surprisingly Testy</h3>
+          <h3 class="highlight__title">Surprisingly Testy</h3><hr>
 					<p class="highlight__details">The freshest and yummiest that you close your eyes and whisper "yessss"</p>
         </span>
       </div>
-    </div> <!-- row --> 
-  </div><!-- our foods-->
+    </div>
 
+    <div class="row">
+      <div class="row--t-padding">
+      <div class="row__large-2 about about__image-1">
+          <picture>
+              <source media="(min-width: 640px )" srcset="assets/images/image-1.png 528w, assets/images/image-1-hi-dpi.png 1056w">
+              <img srcset="assets/images/m-image-1.png 414w, assets/images/m-image-1-hi-dpi.png 828w">
+            </picture>
 
-
-  <div class="page-section">
-<!--       <h3 class="section-title">About</h3>
- -->
-    <div class="row row--t-padding">
-      <div class="row__large-2">
-        <div class="about">
-        	<img class="about__image--1" src="assets/images/image-1.png">
-        		<div class="about__content">
-	            <h3 class="about__title">Our incredible recipe</h3>
-					<p class="about__details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam officia quas necessitatibus dolores repellendus iste culpa minus eligendi similique dolorem quia facere consectetur eaque nulla ratione deleniti, recusandae esse. Iusto.</p>
-				</div>
+        <div class="about__content">
+          <h3 class="about__title">Our incredible recipe</h3>
+          <p class="about__details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam officia quas necessitatibus dolores repellendus iste culpa minus eligendi similique dolorem quia facere consectetur eaque nulla ratione deleniti, recusandae esse. Iusto.</p>
         </div>
       </div>
-      <div class="row__large-4">
+
+      <div class="row__large-4 about__image-2">
         <span class="about__image">
-            <img about__image src="assets/images/image-4.png">
+
+            <picture>
+                <source media="(min-width: 640px )" srcset="assets/images/image-4.png 251w, assets/images/image-4-hi-dpi.png 502w">
+                <img srcset="assets/images/m-image-4.png 414w, assets/images/m-image-4-hi-dpi.png 828w">
+              </picture>
+
+
+            <!-- <img src="assets/images/image-4.png"> -->
         </span>
       </div>
-      <div class="row__large-4">
-        <span class="highlight">
-            <img about__image src="assets/images/image-2.png">
+
+      <div class="row__large-4 about__image-2">
+        <span class="about__image">
+
+            <picture>
+                <source media="(min-width: 640px )" srcset="assets/images/image-2.png 251w, assets/images/image-2-hi-dpi.png 502w">
+                <img srcset="assets/images/m-image-2.png 414w, assets/images/m-image-2-hi-dpi.png 828w">
+              </picture>
+
+
+            <!-- <img src="assets/images/image-2.png"> -->
         </span>
       </div>
 
 
-    </div> <!-- row --> 
+    </div> <!-- row row--t-padding --> 
+    </div> <!-- row ---> 
   </div><!-- our foods-->
 
-
-
-
-
-
-
-
+</div> 
 
 	<footer>
-		<div class="footer__info">contact us: 510-000-0000</div>
+    <div class="footer">
+      <div class="footer__info">contact us: 510-000-0000</div>
+    </div>
 	</footer>
 	
 </body>

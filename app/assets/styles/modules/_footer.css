@@ -1,6 +1,10 @@
-footer {
+.footer {
 	background-color: $menu-bar;
 	padding:  1rem 0;
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
 }
 
 .footer__info {

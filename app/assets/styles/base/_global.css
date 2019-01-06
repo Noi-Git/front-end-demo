@@ -13,24 +13,19 @@ html {
 
 body {
 	font-family: 'Handlee', cursive, sans-serif;
-	font-family: 'Merienda', cursive, sans-serif;
 	font-size: 1.7rem;
 	line-height: 1.7;
 	color: #4a4a4a;
 	box-sizing: border-box;
 	background-color: #fff;
-	padding: 3rem;
 }
 
+h1{
+	font-family: 'Merienda', cursive, sans-serif;
+}
 img {
 	width: 100%;
 	height: auto;
-}
-
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 * {

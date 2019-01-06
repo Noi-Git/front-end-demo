@@ -1,15 +1,32 @@
 .menu-bar {
-	background-color: $menu-bar;
-	color: $text-light;
-	padding: .75rem 0;
+		/* background-color: $menu-bar;
+		color: $text-light;
+		padding: .75rem 0;
+		color: $text-light;
+		padding: .75rem 0;
+		width: 100vw; */
+		display: none;
+	
+	@mixin atSmall {
+		background-color: $menu-bar;
+		color: $text-light;
+		padding: .75rem 0;
+		color: $text-light;
+		padding: .75rem 0;
+		width: 100vw;
+		display: block;
+  }
+}
 
-	&__container {
+.logo {
+	
+	@mixin atSmall {
+		font-size: 1.2rem;
+		text-align: left;
+		padding-top: 1rem;
 		width: 114rem;
 		margin: 0 auto;
 	}
 }
 
-.logo {
-	font-size: 1.2rem;
-	padding-left: .5rem;
-}
+
