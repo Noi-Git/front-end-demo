@@ -19,9 +19,20 @@
         transform: translateY(-20%);
         left: 50%;
         transform: translateX(-50%);
-         padding-top: 60px;
-         width: 65%;
+         padding-top: 6rem;
+         width: 100%;
      }
+     @mixin atMedium {
+        top: 0;
+        
+     }
+
+     @mixin atLarge {
+        top: 20%;
+        padding-top: 6rem;
+        width: 75%;
+     }
+ 
 	}
 
 	&__image {

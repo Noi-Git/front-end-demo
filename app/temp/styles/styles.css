@@ -373,7 +373,7 @@ body {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	background-color: #fff;
-	width: 1365px;
+	/* width: 1140px; */
 	margin: 0 auto;
 }
 
@@ -389,7 +389,6 @@ img {
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-
 }
 
 .large-hero {
@@ -399,29 +398,37 @@ img {
 }
 
 .large-hero__image {
-        display: block;
+				display: block;
+				width:  100%;
         /* width: inherit; */
     }
 
 .large-hero__btn--orange {
     	color: #e8e8e8;
-		text-decoration: none;
-		padding: .75rem 1.4rem;
-		display: inline-block;
-		border: 2px solid #f5a623;
-		position: absolute;
-		left: 50%;
-		-webkit-transform: translateX(-50%);
-		        transform: translateX(-50%);
-		top: 70%;
-		width: 50%;
-		text-align: center;
+			text-decoration: none;
+			padding: .75rem 1.4rem;
+			display: block;
+			border: 2px solid #f5a623;
+			position: absolute;
+			left: 50%;
+			-webkit-transform: translateX(-50%);
+			        transform: translateX(-50%);
+			top: 70%;
+			width: 50%;
+			text-align: center;
 	}
 
 @media (min-width: 530px) {
 
 .large-hero__btn--orange {
-         width: 15%
+         width: 25%
+	}
+	}
+
+@media (min-width: 800px) {
+
+.large-hero__btn--orange {
+			width: 15%
 	}
 	}
 
@@ -467,7 +474,7 @@ img {
 		font-size: 1.2rem;
 		text-align: left;
 		padding-top: 1rem;
-		width: 114rem;
+		padding-left: 5rem;
 		margin: 0 auto
 }
 	}
@@ -502,7 +509,7 @@ img {
     }
 	}
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
 
         .row__b-margin-until-large {
             margin-bottom: 0;
@@ -632,6 +639,7 @@ hr {
         color: #e8e8e8;
         line-height: 3rem;
         color: lightgrey;
+ 
 	}
 
 @media (min-width: 530px) {
@@ -643,8 +651,27 @@ hr {
         left: 50%;
         -webkit-transform: translateX(-50%);
                 transform: translateX(-50%);
-         padding-top: 60px;
-         width: 65%
+         padding-top: 6rem;
+         width: 100%
+ 
+	}
+	}
+
+@media (min-width: 800px) {
+
+.about__content {
+        top: 0
+ 
+	}
+	}
+
+@media (min-width: 1010px) {
+
+.about__content {
+        top: 20%;
+        padding-top: 6rem;
+        width: 75%
+ 
 	}
 	}
 
@@ -671,7 +698,7 @@ hr {
   text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 530px) {
 
 .page-section {
     padding: 4.5rem

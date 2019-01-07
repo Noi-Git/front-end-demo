@@ -18,7 +18,7 @@ body {
 	color: #4a4a4a;
 	box-sizing: border-box;
 	background-color: #fff;
-	width: 1365px;
+	/* width: 1140px; */
 	margin: 0 auto;
 }
 
@@ -32,7 +32,6 @@ img {
 
 * {
     box-sizing: border-box;
-
 }
 
 
