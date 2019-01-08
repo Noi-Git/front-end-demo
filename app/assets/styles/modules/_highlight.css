@@ -33,6 +33,7 @@
 hr {
 	width: 15%;
 	margin: 0 auto;
+	color: $text-light;
 
 	@mixin atSmall {
 		width: 30%;

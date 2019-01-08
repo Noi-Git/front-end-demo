@@ -29,8 +29,12 @@ gulp.task('optimizeImages', ['deleteDistFolder'], function() {
     .pipe(gulp.dest('./dist/assets/images'))
 })
 
+gulp.task('useminTrigger', ['deleteDistFolder'], function() {
+  gulp.start("usemin")
+})
+
 gulp.task('usemin', ['deleteDistFolder', 'styles'], function() {
-  return gulp.src(['./app/index.html'])
+  return gulp.src('./app/index.html')
     .pipe(usemin({
       css: [function() {return rev()}, function() {return cssnano()}]
 

@@ -613,6 +613,7 @@ img {
 hr {
 	width: 15%;
 	margin: 0 auto;
+	color: #e8e8e8;
 }
 
 @media (min-width: 530px) {
